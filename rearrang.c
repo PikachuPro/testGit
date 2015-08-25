@@ -113,7 +113,7 @@ void rearrange (char * output, char const * input, int n_columns, int const colu
 		strncpy (output + output_col, input + columns[col], nchars);
 		output_col += nchars;
 	}
-	ouput[output_col] = '\0';
+	output[output_col] = '\0';
 }
 
 /*
