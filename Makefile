@@ -6,6 +6,5 @@ range: $(object)
 rearrang.o: rearrang.c
 
 .PHONY:
-
-make:
+clean:
 	rm $(object)
